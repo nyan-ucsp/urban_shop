@@ -2,7 +2,7 @@ import 'package:encrypt/encrypt.dart' as encrypt_service;
 
 class EncryptionService {
   static final key = encrypt_service.Key.fromUtf8(
-      'com.shopbeeper.shopbeeper_mobile'); //Key Need length 32
+      'com.green_data.urban_shop_mobile'); //Key Need length 32
   static final iv = encrypt_service.IV.fromLength(16);
   static final encrypter = encrypt_service.Encrypter(
     encrypt_service.AES(key),

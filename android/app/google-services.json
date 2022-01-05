@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "997855913885",
+    "project_id": "urbanshop-a3e31",
+    "storage_bucket": "urbanshop-a3e31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997855913885:android:80e012ce30afcb24873174",
+        "android_client_info": {
+          "package_name": "com.nyan.urban_shop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997855913885-lckirpc47j8nu6isgaoabgkn6jre13fb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm4lWerX2de2QtJd0e-NZpXi6tNhurMXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997855913885-lckirpc47j8nu6isgaoabgkn6jre13fb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

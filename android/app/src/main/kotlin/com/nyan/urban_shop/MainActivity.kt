@@ -1,4 +1,4 @@
-package com.shopbeeper.urban_shop
+package com.nyan.urban_shop
 
 import io.flutter.embedding.android.FlutterActivity
 

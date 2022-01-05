@@ -2,10 +2,11 @@ import 'dart:io';
 
 import 'package:bot_toast/bot_toast.dart';
 import 'package:easy_localization/easy_localization.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'package:urban_shop/components/storebeeper_enum.dart';
+import 'package:urban_shop/components/urban_enum.dart';
 import 'package:urban_shop/service/navigation_service.dart';
 import 'package:urban_shop/service/theme_service.dart';
 import 'package:urban_shop/view/exported_view.dart';
@@ -16,6 +17,7 @@ import 'components/utils.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await EasyLocalization.ensureInitialized();
+  await Firebase.initializeApp();
   HttpOverrides.global = HttpClientOverrides();
   runApp(
     MultiProvider(

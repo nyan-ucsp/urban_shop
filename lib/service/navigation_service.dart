@@ -33,6 +33,21 @@ class NavigationService {
         return MaterialPageRoute(
           builder: (_) => const SplashScreen(),
         );
+      case HomeScreen.routeName:
+        // final HomeScreen args = settings.arguments as HomeScreen;
+        return MaterialPageRoute(
+          builder: (_) => const HomeScreen(),
+        );
+      case UserAddScreen.routeName:
+        // final UserAddScreen args = settings.arguments as UserAddScreen;
+        return MaterialPageRoute(
+          builder: (_) => const UserAddScreen(),
+        );
+      case UserListScreen.routeName:
+        // final UserListScreen args = settings.arguments as UserListScreen;
+        return MaterialPageRoute(
+          builder: (_) => const UserListScreen(),
+        );
       default:
         return MaterialPageRoute(
           builder: (context) => Scaffold(
